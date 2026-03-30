@@ -4,5 +4,5 @@ description: A GitOps-managed Nginx deployment
 version: 1.0.0
 dependencies:
   - name: nginx
-    version: 18.2.4 # Pinning the version ensures your cluster doesn't change unexpectedly
+    version: latest # Pinning the version ensures your cluster doesn't change unexpectedly
     repository: https://charts.bitnami.com/bitnami
