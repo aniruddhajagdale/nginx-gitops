@@ -8,8 +8,6 @@ spec:
   source:
     repoURL: 'https://github.com/aniruddhajagdale/nginx-gitops.git'
     path: apps/nginx
-    directory:
-      recurse: true
     targetRevision: HEAD
   destination:
     server: 'https://kubernetes.default.svc'
