@@ -9,6 +9,9 @@ spec:
     repoURL: 'https://github.com/aniruddhajagdale/nginx-gitops.git'
     path: apps/nginx
     targetRevision: HEAD
+    helm:
+      valueFiles:
+        - values.yaml
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: nginx
