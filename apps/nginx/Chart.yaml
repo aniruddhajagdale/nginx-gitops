@@ -1,8 +1,0 @@
-apiVersion: v2
-name: nginx
-description: A GitOps-managed Nginx deployment
-version: 1.0.0
-dependencies:
-  - name: nginx
-    version: latest # Pinning the version ensures your cluster doesn't change unexpectedly
-    repository: https://charts.bitnami.com/bitnami
